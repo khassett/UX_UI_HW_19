@@ -219,10 +219,10 @@
     }
     
     .btn-cta:hover {
-        border: 2px solid #773F8A;
-        background: #FFFFFF;
+        border: 2px solid #FFFF;
+        background: #914DA8;
         cursor: pointer;
-        color: #000;
+        color: #fff;
     }
 
     .creative-process{
@@ -463,4 +463,5 @@
     }
 
     .work-col1 a {
+        margin-top: 10px;
     }
