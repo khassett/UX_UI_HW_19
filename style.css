@@ -193,7 +193,7 @@
 
     .btn-cta{
         border: 2px solid white;
-        background-color: #68388E;
+        background-color: #773F8A;
         font-size: 18px;
         margin-top: 50px;
 
@@ -214,12 +214,15 @@
         text-align: center;
 
         color: #FFF;
+        font-weight: 400;
+        text-transform: uppercase;
     }
     
     .btn-cta:hover {
-        border: 2px solid #68388E;
+        border: 2px solid #773F8A;
         background: #FFFFFF;
         cursor: pointer;
+        color: #000;
     }
 
     .creative-process{
