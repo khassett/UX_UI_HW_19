@@ -390,8 +390,10 @@
         padding: 50px 100px;
     }
 
-    .icon {
-        margin:auto;
+    .column-center{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
     }
 
     .work-row {
