@@ -387,6 +387,10 @@
         border:none;
     }
 
+    .card-title{
+        text-align: left;
+    }
+    
     .container-fluid {
         padding: 50px 100px;
     }
