@@ -1,7 +1,4 @@
-
-    
-
-    a:hover {
+ a:hover {
         text-decoration: none;
         font-weight: 600;
         color: black;
@@ -94,24 +91,29 @@
 
     .content-right{
         width: 50%;
-        padding: 120px 200px 0px 100px;
+        padding: 20px 200px 0px 100px;
     }
     
     #myTitle{
         color: #9B8B8A;
     }    
 
+    .h1-placement{
+        margin-top: 70px;
+        padding: 50px 0 0 200px;
+    }
+
     /* NAVIGATION BAR */
     
     .nav{
         width:100%;
-        padding: 0px 10px;
+        padding: 0px 30px 40px;
         display: flex;
         font-family: "Inter", sans-serif;
         font-size: 18px;
         flex-direction: row;
         background-color: rgb(239 238 238);
-        box-shadow: 1px 2px 22px #cccccc26;
+        box-shadow: 0px 0px 1px rgba(15, 23, 42, 0.06), 0px 20px 25px -5px rgba(15, 23, 42, 0.1), 0px 10px 10px -5px rgba(15, 23, 42, 0.04);
         transition: 0.4s;
     }
     
@@ -187,7 +189,7 @@
     
        
     .intro{
-        padding:0 0 25px 0;
+        padding: 40px 0 25px 0;
         border-bottom: 1px solid #BAAFBB;
         margin-bottom: 35px;
     }
@@ -292,7 +294,7 @@
     .container{
         justify-content: space-around;
         align-items: baseline;
-        padding: 50px;
+
     }
     .column-tools-top{
         width: 33%;
@@ -365,12 +367,11 @@
 
     .hex{    
         height: 300px;
-        background-image: url("./images/Hexagon_blank.png");
+        background-image: url("./images/Hexagon-light.png");
         background-size: 100%;
         text-align: center;
         display: flex;
         align-items: center;
-        flex-direction: column-reverse;
     }
 
     .hex-top{
@@ -378,7 +379,7 @@
     }
     
     .hex:hover{
-        background-image: url("./images/hexagon-dark.png");
+        background-image: url("./images/Hexagon-dark.png");
         color: white;
     }
 
@@ -393,7 +394,7 @@
     .column-center{
         display: flex;
         justify-content: center;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 
     .work-row {
@@ -447,6 +448,42 @@
 
     .work-col1 a {
         margin-top: 10px;
+    }
+
+    .contact-info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 0px;
+    }
+
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+
+    .form-group input, .form-group textarea {
+        background-color: #b9c8bcb8;
+        color: #000;
+    }
+
+    .ci-email{
+        margin-bottom: 60px;
+    }
+
+    .image{
+        width: 200px;
+        height: 200px;
+        background-color: #BAAFBB;
+        border-radius: 50%;
+        box-shadow: 0 0 0 3px #BAAFBB;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pt-5{
+        padding: 0px 100px;
     }
 
      /* MEDIA QUERIES */ 
