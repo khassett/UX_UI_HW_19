@@ -311,6 +311,7 @@
         align-items: baseline;
 
     }
+    
     .column-tools-top{
         width: 33%;
         padding: 50px 0px;
@@ -322,7 +323,7 @@
         padding: 0px 0px 50px 0px;
         text-align: center;
     }
-    
+
     .svg{
         width: 80px;
         height: 80px;
