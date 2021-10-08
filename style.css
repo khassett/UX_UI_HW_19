@@ -62,7 +62,6 @@
 
     h4:before, h4:after {
         background-color: #fff;
-        margin: 0 20px;
         content: " ";
     }
 
@@ -229,10 +228,20 @@
         background: #914DA8;
         cursor: pointer;
         color: #fff;
+
     }
 
     .creative-process{
         padding: 100px 0;
+        margin: auto;
+    }
+
+    .hp-projects{
+        padding: 100px 0 40px 0;
+        margin: auto;
+    }
+    
+    .mb-3{
         margin: auto;
     }
 
@@ -347,6 +356,7 @@
         display: flex;
         flex-direction: row;
         margin-top: -157px;
+        margin-bottom: 100px;
         justify-content: center;
     }
 
@@ -390,7 +400,7 @@
     .card-title{
         text-align: left;
     }
-    
+
     .container-fluid {
         padding: 50px 100px;
     }
