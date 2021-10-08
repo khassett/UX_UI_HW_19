@@ -500,6 +500,27 @@
         padding: 0px 100px;
     }
 
+    .arrow {
+        width: 120px;
+      }
+      
+      .line {
+        margin-top: 14px;
+        width: 90px;
+        background: rgb(0, 0, 0);
+        height: 10px;
+        float: left;
+      }
+      
+      .point {
+        width: 0;
+        height: 0;
+        border-top: 20px solid transparent;
+        border-bottom: 20px solid transparent;
+        border-left: 30px solid rgb(0, 0, 0);
+        float: right;
+      }
+
      /* MEDIA QUERIES */ 
      @media only screen and (max-width: 300px) { 
         h1 {
