@@ -311,7 +311,7 @@
         align-items: baseline;
 
     }
-    
+
     .column-tools-top{
         width: 33%;
         padding: 50px 0px;
@@ -435,18 +435,21 @@
         background: center center url(./images/narika.png) no-repeat;
         background-size: contain;
         min-height: 500px;
+        margin-right: 50px;
     }
 
     .work-img2 {
         background: center center url("./images/PuppyLove.png") no-repeat;
         background-size: contain;
         min-height: 500px;
+        margin-left: 50px;
     }
 
     .work-img3 {
         background: center center url("./images/Edgov.png") no-repeat;
         background-size: contain;
         min-height: 500px;
+        margin-right: 50px;
     }
 
     .hor-line {
