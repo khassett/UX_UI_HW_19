@@ -389,7 +389,7 @@
     }
     
     .hex:hover{
-        background-image: url("./images/Hexagon-dark.png");
+        background-image: url("./images/hexagon-dark.png");
         color: white;
     }
 
