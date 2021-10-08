@@ -102,6 +102,12 @@
         padding: 50px 0 0 200px;
     }
 
+    .text-link:hover{
+        color:rgb(119, 119, 119);
+        text-transform: underline;
+        cursor: pointer;
+    }
+
     /* NAVIGATION BAR */
     
     .nav{
@@ -241,7 +247,7 @@
         margin: auto;
     }
     
-    .mb-3{
+    .card-margin{
         margin: auto;
     }
 
@@ -401,6 +407,12 @@
         text-align: left;
     }
 
+    .card:hover{
+        box-shadow: 0px 20px 25px -5px rgba(15, 23, 42, 0.1), 10px 10px 10px -5px rgba(15, 23, 42, 0.04);
+        margin-top: -10px;
+        cursor: pointer;
+    }
+
     .container-fluid {
         padding: 50px 100px;
     }
@@ -447,7 +459,6 @@
     }
 
     .work-col1 {
-        mar
         display: flex;
         flex-direction: column;
         align-items: stretch;
